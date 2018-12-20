@@ -12,7 +12,7 @@ class Clima extends Component{
         if(!name || !weather || !main) return null; 
         // constante para kelvin
         const kelvin = 273.15;
-        const urlIcono = `http://openweathermap.org/img/w/${weather[0].icon}.png`;
+        const urlIcono = `https://openweathermap.org/img/w/${weather[0].icon}.png`;
         const alt = `clima de ${name}`
         return (
            <div className="row" >

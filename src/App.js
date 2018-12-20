@@ -32,7 +32,7 @@ class App extends Component {
     // leer la url y agregar el API key
 
     const appId = '98b6e2ba6735856c17ef9d93b2be27a3';
-    let url = `http://api.openweathermap.org/data/2.5/weather?q=${cuidad},${pais}&appid=${appId}`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${cuidad},${pais}&appid=${appId}`;
     console.log(url);
 
     //query con fetch api consulta 
